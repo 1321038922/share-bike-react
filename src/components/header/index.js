@@ -40,10 +40,13 @@ export class Header extends Component {
     return (
       <div className="header-wrap">
         <div className="user-info">
+          <h2 className="fll quit">
+            共享单车后台系统
+          </h2>
           <div className="flr">
-            <Link to="/login"> 退出</Link>
+            <Link className="quit" to="/login"> 退出</Link>
           </div>
-          <div className="user-detail flr">
+          <div className="user-detail flr quit">
             欢迎，{' '}<span className="username">Cason</span>
           </div>
         </div>

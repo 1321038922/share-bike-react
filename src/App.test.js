@@ -17,11 +17,11 @@
 
 // console.log(res)
 
-// var p = /\d{3}/
+var p = /\d{3,5}/
 
-// var s = '33'
-// var r = p.test(s)
-// console.log(r)
+var s = '3306666'
+var r = p.test(s)
+console.log(r)
 
 
 // var p = /[^123]/
@@ -44,4 +44,21 @@
 // let r = p.test(s)
 // console.log(r)     
 
-let p = /(^#[0-9a-f]{6}$)|()/
+// let p = /a/g;
+
+// let s = "asdasdasd"
+
+// var res = p.exec(s)
+// console.log(res)
+// var res = p.exec(s)
+// console.log(res)
+// var res = p.exec(s)
+// console.log(res)
+
+// var p = /[1-9]\d*/g
+// var s = "var p = /[1-9]\d*/g"
+
+// var res;
+// while(res = p.exec(s)){
+//   console.log(res)
+// }
